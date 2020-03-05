@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+}
+.headerTodo{
+  background-color: #4da6ff;
+  height: 250px;
+  font-weight: bold;
+  font-size: large;
+}
+.title{
+  color: white;
+  text-align: right;
+  padding-right: 30px;
+}
+.subTitle{
+  color: white;
+  text-align: right;
+  padding-right: 30px;
+}
+.addTask{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.textTask{
+  width: 50%;
+  padding: 15px;
+  margin-top: 5px;
+  margin-right: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  border-style: hidden;
+  border-radius: 5px;
+}
+.btnTask{
+  padding: 10px;
+  margin-top: 15px;
+  margin-right: 30px;
+  width: 5%;
+  cursor:pointer;
+  color:  white;
+  background-color: #4da6ff;
+  border:2px solid white;
+  border-radius: 5px;
+}
+.toText{
+  text-align: center;
+  color:#a6a6a6;
+  margin-top: 20px;
+}
+.newToDo{
+  display: flex;
+  flex-direction: row;
+}
+.newText{
+  text-align: center;
+  color:#a6a6a6;
+  margin-top: 20px;
+}
+.newBtn{
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  color:#a6a6a6;
+  background-color:white;
+  border:2px solid #a6a6a6;
+  border-radius: 5px;
+}
+.lineCheck{
+  text-decoration: line-through #4da6ff;
+}
